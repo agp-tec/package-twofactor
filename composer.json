@@ -1,0 +1,29 @@
+{
+    "name": "agp/twofactor",
+    "description": "Package para autenticaçào de dois fatores",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Richard Cardoso",
+            "email": "richardpcardoso@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "chillerlan/php-qrcode": "^4.3"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "agp\\twofactor": "src/Agp/TwoFactor/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Agp\\TwoFactor\\AgpTwoFactorServiceProvider"
+            ]
+        }
+    }
+}
