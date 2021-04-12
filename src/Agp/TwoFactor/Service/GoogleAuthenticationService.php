@@ -63,7 +63,7 @@ class GoogleAuthenticationService
         $headers = [
             'Content-type' => 'application/json',
             'Accept' => 'application/json',
-            //'Authorization' => 'bearer '.auth()->getToken(),
+            'Authorization' => 'bearer '.auth()->getToken(),
         ];
 
         switch ($method){
