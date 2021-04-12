@@ -14,9 +14,10 @@
         "chillerlan/php-qrcode": "^4.3"
     },
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-0": {
-            "agp\\twofactor": "src/Agp/TwoFactor/"
+            "Agp\\twofactor": "src/"
         }
     },
     "extra": {

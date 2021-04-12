@@ -32,7 +32,7 @@ Package para autenticaçào de dois fatores.
 ### Instalação
 
 ```bash
-composer require  agp/twofactor
+composer require agp/twofactor
 ```
 
 O segundo passo é verificar se as variáveis que são utilizadas nesse arquivo ja estão setadas no .env.
